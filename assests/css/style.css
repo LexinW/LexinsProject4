@@ -1,0 +1,66 @@
+:root {
+  --dark: darkblue;
+  --light: lightblue;
+}
+
+header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: var(--light);
+  padding: 0px 4px;
+}
+
+.highscoreBtn{
+  background-color: var(--light);
+  color: var(--dark);
+  padding: 10px 20px;
+  border: solid black 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.highscoreBtn:hover{
+  background-color: var(--dark);
+  color: var(--light);
+  border: none;
+}
+
+.timer {
+  padding: 10px 20px;
+  font-weight: 1000;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+.card {
+  text-align: center;
+  
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.beginBtn {
+  background-color: var(--light);
+  color: var(--dark);
+  padding: 10px 20px;
+  border: solid black 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.beginBtn:hover{
+  background-color: var(--dark);
+  color: var(--light);
+  border: none;
+}
